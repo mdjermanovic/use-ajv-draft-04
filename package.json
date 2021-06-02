@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/mdjermanovic/use-ajv-draft-04#readme",
   "dependencies": {
-    "ajv": "^8.5.0",
-    "ajv-draft-04": "^1.0.0"    
+    "ajv": "^6.10.0",
+    "eslint": "github:epoberezkin/eslint#epoberezkin/ajv-v7"
   }
 }
